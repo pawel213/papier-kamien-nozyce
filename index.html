@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Papier, kamień, nożyce</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='gra.js' defer></script>
+    </head>
+    <body>
+        <!-- <p id = "narzedzia"></p> -->
+        <!-- <button onclick = 'losuj()'>Losuj narzędzie</button> -->
+        <!-- <p id = "wynik"></p> -->
+        <div id = "obrazki">
+            <img src = "kamien.webp" onclick = "wybierz('k')">
+            <img src = "papier.webp" onclick = "wybierz('p')">
+            <img src = "nozyce.webp" onclick = "wybierz('n')">
+        </div>
+        <p id = "wynik"></p>
+        <p id = "szczegoly"></p>
+        <p id = "przegrane" class = "mniejsza-czcionka">Przegrane: 0</p>
+        <p id = "wygrane" class = "mniejsza-czcionka">Wygrane: 0</p>
+        <p id = "remisy" class = "mniejsza-czcionka">Remisy: 0</p>
+        <p id = "autorzy">Wykonanie: Piotr Dudziewicz i Paweł Rutkowski 3tb</p>
+    </body>
+</html>
